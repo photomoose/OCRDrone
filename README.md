@@ -1,23 +1,23 @@
 # OCRDrone
 
-OCRDrone is a NodeJS application written for a [NodeCopter]("http://www.nodecopter.com") demonstration. 
+OCRDrone is a NodeJS application written for a [NodeCopter](http://www.nodecopter.com) demonstration. 
 
-OCRDrone uses the drone's video camera to continuously save camera footage to the filesystem, passing each image to [nodecr]("http://github.com/joscha/nodecr") for text recognition. If the text is recognised as a valid command, it is then translated into flight commands and sent to the drone in real-time.
+OCRDrone uses the drone's video camera to continuously save camera footage to the filesystem, passing each image to [nodecr](http://github.com/joscha/nodecr) for text recognition. If the text is recognised as a valid command, it is then translated into flight commands and sent to the drone in real-time.
 
 ## Demo
-You can see a short [video]("http://youtu.be/Oj0n5iOXN2U?t=12m10s") of this application being demoed at NodeCopter Southampton. (Skip through to 12:10).
+You can see a short [video](http://youtu.be/Oj0n5iOXN2U?t=12m10s) of this application being demoed at NodeCopter Southampton. (Skip through to 12:10).
 
-Here's another [video]("http://youtu.be/aGo6oPC92QE") of exactly the same demo, created by stitching together all the images captured by this application. This is what OCRDrone sees and processes.
+Here's another [video](http://youtu.be/aGo6oPC92QE) of exactly the same demo, created by stitching together all the images captured by this application. This is what OCRDrone sees and processes.
 
 ## Prerequisites
 
-ar-drone (https://github.com/felixge/node-ar-drone):
+ar-drone - http://github.com/felixge/node-ar-drone:
 
 ```bash
 npm install ar-drone
 ```
 
-nodecr (https://github.com/joscha/nodecr):
+nodecr - http://github.com/joscha/nodecr:
 
 ```bash
 npm install nodecr
@@ -25,7 +25,7 @@ npm install nodecr
 
 The following applications also need to be downloaded and installed on your system. NOTE: the executable binaries of each must be available in your system path.
 
-tesseract: https://code.google.com/p/tesseract-ocr
+tesseract: http://code.google.com/p/tesseract-ocr
 
 ffmpeg: http://ffmpeg.org/download.html
 
