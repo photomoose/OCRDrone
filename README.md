@@ -29,6 +29,12 @@ tesseract: https://code.google.com/p/tesseract-ocr
 
 ffmpeg: http://ffmpeg.org/download.html
 
+## Usage
+
+```bash
+node ocrDrone.js
+```
+
 ## Tips
 
 * Although it is possible to show text to drone's camera using a laptop/tablet, we found that text printed on paper worked much better.
