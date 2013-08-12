@@ -21,11 +21,11 @@ nodecr (https://github.com/joscha/nodecr):
 npm install nodecr
 ```
 
+The following applications also need to be downloaded and installed on your system. NOTE: the executable binaries of each must be available in your system path.
+
 tesseract: https://code.google.com/p/tesseract-ocr
 
 ffmpeg: http://ffmpeg.org/download.html
-
-Note: The executable binaries for tesseract and ffmpeg must be in your system path.
 
 ## Tips
 
